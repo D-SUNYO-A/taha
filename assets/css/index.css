@@ -16,10 +16,6 @@
   padding-left: 16px;
 }
 
-.table-container {
-  overflow-x: auto;
-}
-
 /* ----------------- Header ----------------- */
 
 header {
@@ -58,10 +54,10 @@ header .stats {
 }
 
 header .stats .stats-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 header .stats .date {
@@ -87,6 +83,10 @@ main {
   gap: 24px;
 }
 
+.table-container {
+  overflow-x: auto;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -101,7 +101,7 @@ td {
 }
 
 th {
-  background-color: #779ED3;
+  background-color: #779ed3;
   color: white;
   width: 12.5%;
   text-transform: uppercase;
@@ -112,11 +112,11 @@ th.empty {
 }
 
 td {
-  background: #E1E1E1;
+  background: #e1e1e1;
 }
 
 td:first-child {
-  background: #467CC3;
+  background: #467cc3;
   color: white;
 }
 
@@ -132,7 +132,7 @@ td:last-child {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: #7DD856;
+  background-color: #7dd856;
 }
 
 main .table-recap {
@@ -143,7 +143,8 @@ main .table-recap {
   gap: 32px;
 }
 
-main .table-recap .tfm, main .table-recap .tfd {
+main .table-recap .tfm,
+main .table-recap .tfd {
   padding: 24px 32px;
   border-radius: 24px;
   display: flex;
@@ -156,29 +157,29 @@ main .table-recap .tfm, main .table-recap .tfd {
 }
 
 main .table-recap .tfm {
-  border: 2px solid #789FD3;
+  border: 2px solid #789fd3;
 }
 
 main .table-recap .tfm p {
-  color: #F78F25;
+  color: #f78f25;
   text-transform: uppercase;
 }
 
 main .table-recap .tfm span {
-  color: #789FD3;
+  color: #789fd3;
 }
 
 main .table-recap .tfd {
-  border: 2px solid #F78F25;
+  border: 2px solid #f78f25;
 }
 
 main .table-recap .tfd p {
-  color: #789FD3;
+  color: #789fd3;
   text-transform: uppercase;
 }
 
 main .table-recap .tfd span {
-  color: #F78F25;
+  color: #f78f25;
 }
 
 /* Chart Section */
@@ -208,7 +209,7 @@ main .table-recap .tfd span {
 }
 
 .chart-section .chart-legend button:first-child {
-  background-color: #25679B;
+  background-color: #25679b;
 }
 
 .chart-section .chart-legend button:nth-child(2) {
@@ -220,7 +221,7 @@ main .table-recap .tfd span {
 }
 
 .chart-section .chart-legend button:nth-child(3) {
-  background-color: #EE8540;
+  background-color: #ee8540;
 }
 
 .exports {
