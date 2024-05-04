@@ -7,20 +7,12 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-block: 16px;
-  gap: 24px;
-  width: 100%;
-} */
-
 header {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    width: 100%;
-    margin-block: 24px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-block: 16px;
 }
 
 header img {
