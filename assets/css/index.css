@@ -187,12 +187,19 @@ main .table-recap .tfd span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 32px;
   padding-block: 40px;
 }
 
-.chart-section .chart-container img {
-  width: 100%;
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chart-container canvas {
+  width: 400px;
+  height: 200px;
 }
 
 .chart-section .chart-legend {
@@ -234,7 +241,7 @@ main .table-recap .tfd span {
   width: 80px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
 }
 
 @media (min-width: 768px) {
@@ -254,7 +261,7 @@ main .table-recap .tfd span {
   }
 
   .chart-section {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   header {
@@ -265,11 +272,21 @@ main .table-recap .tfd span {
   header .stats {
     justify-content: end;
   }
+
+  .chart-container canvas {
+    width: 600px;
+    height: 300px;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 970px;
+  }
+
+  .chart-container canvas {
+    width: 800px;
+    height: 400px;
   }
 }
 
