@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TAHA</title>
     <link rel="stylesheet" href="./assets/css/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="container">
       <img src="./assets/img/logo.png" alt="logo" />
       <div class="title">
         <h1>TAHA</h1>
-        <h2>(<b>T</b>aha mi<b>A</b>ntoka ny <b>H</b>erin'ny <b>A</b>riary)</h2>
+        <h3>(<b>T</b>aha mi<b>A</b>ntoka ny <b>H</b>erin'ny <b>A</b>riary)</h3>
       </div>
       <div class="stats">
-        <div class="graph">
-          <img src="#" alt="graph" />
-          <span>10%</span>
+        <div class="stats-content">
+            <div class="graph">
+              <img src="./assets/img/side_donut.png" alt="graph" />
+              <span>10%</span>
+            </div>
+            <h2 class="date">02 | 05 | 2024</h2>
         </div>
-        <div class="date">02 | 05 | 2024</div>
       </div>
     </header>
     <main class="container">
@@ -35,49 +40,130 @@
         <table id="myTable">
           <thead>
             <tr>
-              <th>Header 1</th>
-              <th>Header 2</th>
-              <th>Header 3</th>
+              <th class="empty"></th>
+              <th>Taux</th>
+              <th>Volume de transaction (MDS d'Ariary)</th>
+              <th>Nombre de participants</th>
+              <th>Nombre de transactions</th>
+              <th>Taux min</th>
+              <th>Taux max</th>
+              <th>Mode de calcul</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Data 1</td>
-              <td>Data 2</td>
-              <td>Data 3</td>
+              <td>02/05/2024</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="actif"></span> Normal</td>
             </tr>
             <tr>
-              <td>Data 4</td>
-              <td>Data 5</td>
-              <td>Data 6</td>
+              <td>30/04/2024</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="actif"></span> Normal</td>
+            </tr>
+            <tr>
+              <td>29/04/2024</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="actif"></span> Normal</td>
+            </tr>
+            <tr>
+              <td>28/04/2024</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="actif"></span> Normal</td>
+            </tr>
+            <tr>
+              <td>27/04/2024</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="actif"></span> Normal</td>
+            </tr>
+            <tr>
+              <td>26/04/2024</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="actif"></span> Normal</td>
+            </tr>
+            <tr>
+              <td>25/04/2024</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td>--</td>
+              <td><span class="actif"></span> Normal</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <div class="table-recap">
-          <div class="tfm">
-            <p>Taux de facilité de prêt marginal</p>
-            <span>11.00%</span>
+        <div class="tfm">
+          <div>
+            <p>Taux de facilité</p>
+            <p>de prêt marginal</p>
           </div>
-          <div class="tfd">
-            <p>Taux de facilité de dépôt</p>
-            <span>18.00%</span>
+          <span>11.00%</span>
+        </div>
+        <div class="tfd">
+          <div>
+            <p>Taux de facilité</p>
+            <p>de dépôt</p>
           </div>
+          <span>18.00%</span>
+        </div>
       </div>
 
-      <div class="">
+      <div class="chart-section">
         <div class="chart-container">
-
+          <img src="./assets/img/chart.png" alt="chart" />
         </div>
-        <div class="export">
-            <button>Taux des facilités de prêt marginal</button>
-            <button>Taux des références</button>
-            <button>Taux des facilités de dépôt</button>
-            <div>
-                <a href="#" class="xls"><img src="./assets/img/exel.png" alt="exel"></a>
-                <a href="#" class="pdf"><img src="./assets/img/pdf.png" alt="pdf"></a>
-            </div>
+        <div class="chart-legend">
+          <button>
+            <p>Taux des facilités</p>
+            <p>de prêt marginal</p>
+          </button>
+          <button>Taux des références</button>
+          <button>
+            <p>Taux des facilités</p>
+            <p>de dépôt</p>
+          </button>
+          <div class="exports">
+            <a href="#" class="xls"
+              ><img src="./assets/img/exel.png" alt="exel"
+            /></a>
+            <a href="#" class="pdf"
+              ><img src="./assets/img/pdf.png" alt="pdf"
+            /></a>
+          </div>
         </div>
       </div>
     </main>
