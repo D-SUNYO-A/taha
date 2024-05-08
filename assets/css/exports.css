@@ -1,0 +1,25 @@
+.exports {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.exports a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: #ececec;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+
+.exports a p {
+  margin: 0;
+  font-size: 20px;
+  color: #0f172a;
+}
+
+.exports a img {
+  width: 40px;
+}

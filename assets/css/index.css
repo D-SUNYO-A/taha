@@ -234,16 +234,6 @@ main .table-recap .tfd span {
   background-color: #CF8A00;
 }
 
-.exports {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-}
-
-.exports a img {
-  width: 80px;
-}
-
 .ampoule {
   position: absolute;
   top: -10px;
